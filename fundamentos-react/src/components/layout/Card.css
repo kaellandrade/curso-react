@@ -1,26 +1,29 @@
 .Card {
-    border: 4px double rgb(196, 192, 192);
+    border: 1px;
     border-radius: 5px;
-    box-shadow: -4px 10px 10px rgba(161, 97, 23, 0.5);
-    margin: 10px 0px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 300;
 }
 
 .TitleCard {
-    background-color: rgba(0, 0, 0, 0.842);
     padding: 5px 5px;
-    color: whitesmoke;
     display: flex;
     justify-content: center;
     font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
 }
 
 .Title {
-    color: whitesmoke;
     text-align: center;
+    color: whitesmoke;
 }
 
-.Content {
-    background: rgba(230, 103, 0, 0.795);
+.Card .Content {
+    flex: 1;
+    background: #F2E394;
     color: #000;
     text-align: center;
     padding: 10px;
