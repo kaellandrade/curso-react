@@ -6,8 +6,6 @@ export default props =>{
             <MembroFamilia nome="Micael" {...props}></MembroFamilia>
             <MembroFamilia nome="Ana" {...props}></MembroFamilia>
             <MembroFamilia nome="Manoel" {...props}></MembroFamilia>
-
-
         </React.Fragment>
     );
 }
