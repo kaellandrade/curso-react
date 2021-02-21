@@ -1,11 +1,12 @@
-import React from'react';
-import MembroFamilia from './MembroFamilia';
+import React, {cloneElement} from'react';
 export default props =>{
     return(
         <React.Fragment>
-            <MembroFamilia nome="Micael" {...props}></MembroFamilia>
-            <MembroFamilia nome="Ana" {...props}></MembroFamilia>
-            <MembroFamilia nome="Manoel" {...props}></MembroFamilia>
+            {
+               React.Children.map(props.children, (child) => {
+                    return cloneElement(child, props);
+                })
+            }
         </React.Fragment>
     );
 }

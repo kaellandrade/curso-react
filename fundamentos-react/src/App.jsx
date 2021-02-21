@@ -7,13 +7,19 @@ import ComParametro from './components/basicos/ComParametro';
 import Fragmento from './components/basicos/Fragmento';
 import Card from './components/layout/Card'
 import Familia from './components/basicos/Familia';
+import MembroFamilia from './components/basicos/MembroFamilia';
+
 export default _ => (  //com default podemos usar funções anônimas
     <div className="App">
         <h1 className="Title">Fundamentos react</h1>
 
         <div className="Cards">
             <Card titulo="#5 - Componente com filhos" color="#78C0A8">
-                <Familia sobrenome="Andrade"></Familia>
+                <Familia sobrenome="Andrade">
+                    <MembroFamilia nome="Micael"></MembroFamilia>
+                    <MembroFamilia nome="Ana" ></MembroFamilia>
+                    <MembroFamilia nome="Manoel"></MembroFamilia>
+                </Familia>
             </Card>
 
             <Card titulo="#4 - Desafio Aleatório" color="#8C4646">
