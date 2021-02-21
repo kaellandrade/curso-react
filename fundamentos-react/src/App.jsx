@@ -10,13 +10,17 @@ import Familia from './components/basicos/Familia';
 import MembroFamilia from './components/basicos/MembroFamilia';
 import ListaAlunos from './components/repeticao/ListaAlunos';
 import ListaProdutos from './components/repeticao/ListaProdutos';
-
+import ParOuImpar from './components/condicional/ParOuImpar'
 
 export default _ => (  //com default podemos usar funções anônimas
     <div className="App">
         <h1 className="Title">Fundamentos react</h1>
 
         <div className="Cards">
+
+            <Card titulo='#08- Condicional' color='#1FDA9A'>
+                <ParOuImpar num={Math.floor(Math.random()*100)}></ParOuImpar>
+            </Card>
 
             <Card titulo='#07 - Desafio Repetição' color='#4a4e4d'>
                 <ListaProdutos></ListaProdutos>

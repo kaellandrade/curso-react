@@ -1,3 +1,7 @@
+.tabelaProduto table {
+    width: 100%;
+}
+
 thead {
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.705);
