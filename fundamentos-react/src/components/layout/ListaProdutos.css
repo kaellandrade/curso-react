@@ -1,0 +1,18 @@
+thead {
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.listapares tr:nth-child(2n) {
+    /* seleciona todos os itens pares*/
+    background-color: rgba(27, 23, 23, 0.397);
+}
+
+.formatText {
+    text-transform: capitalize;
+}
+
+.preco::before {
+    content: 'R$ ';
+    color: rgb(0, 0, 0);
+}
