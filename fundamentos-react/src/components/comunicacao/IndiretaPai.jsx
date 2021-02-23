@@ -3,9 +3,8 @@ import IndiretaFilho from './IndiretaFilho'
 
 export default props => {
     const [nome, setNome] = useState('?'); // retorna um array com duas posições primaira posição será o valor, segunda será uma função para alterar o valor
-    const [idade, setIdade] = useState(0); // retorna um array com duas posições primaira posição será o valor, segunda será uma função para alterar o valor
-    const [nerd, setNerd] = useState(false); // retorna um array com duas posições primaira posição será o valor, segunda será uma função para alterar o valor
-    console.log(useState('?'));
+    const [idade, setIdade] = useState(0);
+    const [nerd, setNerd] = useState(false);
     function fornecerInformacoes(nome, idade, nerd) {
     setNome(nome);
     setIdade(idade);

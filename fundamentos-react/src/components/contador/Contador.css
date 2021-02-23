@@ -1,0 +1,28 @@
+.Contador input {
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+}
+
+.Contador button {
+    color: rgba(0, 0, 0, 0.568);
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    transition: 1s;
+}
+
+.Contador .Incremento:hover {
+    background-color: #096b3d;
+    color: white;
+}
+
+.Contador .Decremento:hover {
+    color: white;
+    background-color: #f87910;
+}
