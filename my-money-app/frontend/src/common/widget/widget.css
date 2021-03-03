@@ -1,0 +1,14 @@
+.small-box{
+    transition: 0.5s;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: -1px 5px rgba(0, 0, 0, 0.322);
+}
+
+.small-box:hover{
+    /* border-radius: 0px; */
+    transform: scale(0.98);
+    box-shadow: 0 0px black;
+
+
+}
