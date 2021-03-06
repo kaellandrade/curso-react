@@ -5,3 +5,9 @@
 footer .text-center{
     text-align: center;
 }
+.btn{
+    margin-left: 5px;
+}
+.table-actions{
+    width: 150px;
+}
